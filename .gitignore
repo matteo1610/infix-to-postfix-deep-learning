@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local notebooks and generated outputs
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Generated model/training artifacts
+checkpoints/
+logs/
+wandb/
